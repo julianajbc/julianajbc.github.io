@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Montserrat;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+    
+a:hover {
+    color: #909090;
+    transition: all 0.5s ease;
+}
+    
+#top {
+    width: 100%;
+    height: 30px;
+    background: #FFFFFF;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 999;
+    text-align: center;
+    line-height: 30px;
+}
+
+#top a {
+    display: initial;
+    padding: 0px 25px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+    
+#top a:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+    
+#right {
+    width: 30px;
+    height: 100%;
+    background: #FFFFFF;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    z-index: 999;
+}  
+    
+#bottom {
+    width: 100%;
+    height: 30px;
+    background: #FFFFFF;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    z-index: 999;
+}
+
+#left {
+    width: 30px;
+    height: 100%;
+    background: #FFFFFF;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+}
+
+    
+#section-one {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url(fotografias/primeira%20sec%C3%A7%C3%A3o.jpg);
+    background-position: center;
+    background-size: cover;
+}
+    
+#title {
+    margin: 0 auto;
+    width: 140px;
+    height: 80px;
+    padding: 30px;
+    background: #FFFFFF; 
+    top: 30%;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#subtitle {
+    border-bottom: 3px solid;
+    border-color: #000000;
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+    padding-top: 18px;
+}
+    
+#enter {
+    margin: 0 auto;
+    width: 200px;
+    height: 130px;
+    line-height: 130px;
+    position: relative;
+    top: 30%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#enter a {
+    color: #FFFFFF;
+    display: block;
+    border: 5px solid;
+    border-color: #000000;
+    background: #000000;
+}
+
+#enter a:hover {
+    background: none;
+    border-color: #FFFFFF; 
+    color: #FFFFFF; 
+}
+
+
+#section-two {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url(fotografias/segunda%20sec%C3%A7%C3%A3o.jpg);
+    background-position: center;
+    background-size: cover;
+    top: 100%;
+}
+
+#aboutmebox {
+    width: 495px;
+    height: 100%;
+    background: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#avatar img {
+    margin-top: 200px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+#name {
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 10px;
+    font-size: 14px;
+    color: #000000;
+}
+
+#description {
+    font-size: 9px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #000000;
+    padding: 0px 35px;
+    text-align: justify;
+}
+    
+    
+#section-three {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url(fotografias/terceira%20sec%C3%A7%C3%A3o.jpg);
+    background-position: center;
+    background-size: cover;
+    top: 200%;
+}
+
+.contacts {
+    width: 800px;
+    height: 120px;
+    background: #FFFFFF;
+    right: 30px;
+    top: 60%;
+    position: absolute;
+}
+    
+#text-contacts {
+    margin: 30px;
+    margin-right: 10px;
+    border-bottom: 3px solid;
+    border-color: #000000;
+    color: #000000;
+    padding-bottom: 10px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+    
+#box-contacts {
+    margin-right: 0px;
+    text-align: right;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+    
+#box-contacts a {
+    color: #000000;
+    padding: 0px 10px;
+}
+    
+#box-contacts a:hover {
+    font-weight: bold;
+}
+
+#section-four {
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    background: url(fotografias/quarta%20sec%C3%A7%C3%A3o.jpg);
+    background-position: center;
+    background-size: cover;
+    top: 300%;
+}
+    
+#projects {
+    margin: 0 auto;
+    margin-top: 12%;
+    left: 0px;
+    padding: 30px;
+    right: 0px;
+    width: 640px;
+    height: 420px;
+    position: absolute;
+    background: #FFFFFF;
+}
+
+#projects-title {
+    font-size: 16px; 
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+    font-weight: bold; 
+    border-bottom: 3px solid; 
+    border-color: #000000; 
+    color: #000000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+    
+::-webkit-scrollbar {
+    height: 10px;
+    width: 9px;
+    background: white;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background: #000000; 
+    border: 3px solid white; 
+
+}
